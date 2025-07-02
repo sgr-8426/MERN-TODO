@@ -32,7 +32,7 @@ function App() {
   const fetchTasks = useCallback(async () => {
     try {
       const response = await fetch(
-        `https://todobackend-bi77.onrender.com/tasks`,
+        `https://devtown-mern-todo.onrender.com/tasks`,
         {
           headers: { Authorization: `Bearer ${token}` },
         }
@@ -48,7 +48,7 @@ function App() {
   const fetchStats = async () => {
     try {
       const response = await fetch(
-        "https://todobackend-bi77.onrender.com/tasks/stats",
+        "https://devtown-mern-todo.onrender.com/tasks/stats",
         {
           headers: { Authorization: `Bearer ${token}` },
         }
@@ -76,7 +76,7 @@ function App() {
   const addTask = async (taskData) => {
     try {
       const response = await fetch(
-        "https://todobackend-bi77.onrender.com/tasks",
+        "https://devtown-mern-todo.onrender.com/tasks",
         {
           method: "POST",
           headers: {
@@ -97,7 +97,7 @@ function App() {
   const updateTask = async (id, updates) => {
     try {
       const response = await fetch(
-        `https://todobackend-bi77.onrender.com/tasks/${id}`,
+        `https://devtown-mern-todo.onrender.com/tasks/${id}`,
         {
           method: "PATCH",
           headers: {
@@ -117,7 +117,7 @@ function App() {
 
   const deleteTask = async (id) => {
     try {
-      await fetch(`https://todobackend-bi77.onrender.com/tasks/${id}`, {
+      await fetch(`https://devtown-mern-todo.onrender.com/tasks/${id}`, {
         method: "DELETE",
         headers: { Authorization: `Bearer ${token}` },
       });
