@@ -38,7 +38,7 @@ MERN-TODO is a productivity app that allows users to:
 
 ```bash
 # Clone the repo
-git clone <your-repo-url>
+git clone https://github.com/sgr-8426/MERN-TODO
 cd MERN-TODO
 ```
 
