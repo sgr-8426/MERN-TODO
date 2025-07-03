@@ -69,8 +69,8 @@ npm run dev
 
 ## 🌐 Deployment Links
 
-- **Frontend Demo:** [https://your-frontend-demo-link](https://your-frontend-demo-link)
-- **Backend API:** [https://your-backend-api-link](https://your-backend-api-link)
+- **Frontend Demo:** [https://your-frontend-demo-link](https://mern-todo-k6zj.onrender.com/)
+- **Backend API:** [https://your-backend-api-link](https://devtown-mern-todo.onrender.com)
 
 > Replace the above links with your actual deployment URLs (e.g., Vercel, Netlify, Render, Heroku, etc.)
 
